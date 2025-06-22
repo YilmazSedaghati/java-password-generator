@@ -23,7 +23,15 @@ public static void main(String[] args) {
 
     String yearBorn = age.substring(age.length( )-2);
 
-    System.out.println("La password che ti propongo è : " + name + "-" + surname + "-" favouriteColor + "-" + yearBorn );
+    System.out.println("La password che ti propongo è : " + name + "-" + surname + "-" + favouriteColor + "-" + yearBorn );
+
+    }
 
 }
-}
+
+/*correzione esercizio in classe
+ * inserire richiesta data mese anno separatamente, creando così variabili day, month, year.
+ * fare conversione da num a string tramite
+ * int sommaNascita = Integer.parseInt(day) + Integer.parseInt(month) + Integer.parseInt(year)
+ * ed infine String risultato = String.format("%s-%s-%s-%d", name, surname, favoriteColour, sommaNascita)
+ */
